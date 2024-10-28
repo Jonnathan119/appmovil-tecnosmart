@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_image"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tvWelcome"
+            android:layout_width="283dp"
+            android:layout_height="68dp"
+            android:layout_marginBottom="20dp"
+            android:text="Bienvenido a TecnoSmart SalesPro"
+            android:textAlignment="center"
+            android:textColor="@color/purple_500"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvMainMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Menú Principal"
+            android:textColor="@color/purple_500"
+            android:textSize="18sp"
+            android:layout_marginBottom="10dp" />
+
+        <!-- Botones para las opciones del menú -->
+        <Button
+            android:id="@+id/buttonGestionVentas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gestión de Ventas"
+            android:background="@drawable/edit_text_background"
+            android:textColor="@color/black"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/buttonHistorialVentas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Historial de Ventas"
+            android:background="@drawable/button_background"
+            android:textColor="@color/black"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/buttonGestionInventario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gestión de Inventario"
+            android:background="@drawable/button_background"
+            android:textColor="@color/black"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/buttonGestionClientes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gestión de Clientes"
+            android:background="@drawable/button_background"
+            android:textColor="@color/black"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/buttonInformeDiarias"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Informe de Ventas Diarias"
+            android:background="@drawable/button_background"
+            android:textColor="@color/black"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/buttonInformeMensuales"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Informe de Ventas Mensuales"
+            android:background="@drawable/button_background"
+            android:textColor="@color/black"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/buttonInformeInventario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Informe de Inventario"
+            android:background="@drawable/button_background"
+            android:textColor="@color/black"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/buttonVentasCliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ventas por Cliente"
+            android:background="@drawable/button_background"
+            android:textColor="@color/black"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/buttonInformeClientes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Informe de Clientes"
+            android:background="@drawable/button_background"
+            android:textColor="@color/black"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/buttonGestionCartera"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gestión de Cartera"
+            android:background="@drawable/button_background"
+            android:textColor="@color/black"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/buttonLogout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="Cerrar Sesión"
+            android:textColor="@color/colorPrimaryDark" />
+    </LinearLayout>
+</ScrollView>

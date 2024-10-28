@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_image"
+    android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvLoginTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TecnoSmart SalesPro"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp" />
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvLoginTitle"
+            android:layout_marginTop="20dp"
+            android:hint="Correo"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/edit_text_background"
+            android:padding="12dp"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextEmail"
+            android:layout_marginTop="16dp"
+            android:hint="Contraseña"
+            android:inputType="textPassword"
+            android:background="@drawable/edit_text_background"
+            android:padding="12dp"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/buttonLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextPassword"
+            android:layout_marginTop="24dp"
+            android:text="Iniciar Sesión"
+            android:background="@color/colorPrimary"
+            android:textColor="@android:color/white
+" />
+</RelativeLayout>

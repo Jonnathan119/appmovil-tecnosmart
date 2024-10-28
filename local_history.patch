@@ -1,0 +1,27 @@
+Index: app/src/main/AndroidManifest.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/AndroidManifest.xml b/app/src/main/AndroidManifest.xml
+--- a/app/src/main/AndroidManifest.xml	
++++ b/app/src/main/AndroidManifest.xml	(date 1730095350205)
+@@ -10,8 +10,8 @@
+         android:supportsRtl="true"
+         android:theme="@style/Theme.TecnoSmartSalesPro">
+ 
+-        <!-- Declaración de MainActivity como la actividad principal -->
+-        <activity android:name=".MainActivity"
++        <!-- Declaración del login como actividad principal -->
++        <activity android:name=".LoginActivity"
+             android:exported="true">
+             <intent-filter>
+                 <action android:name="android.intent.action.MAIN" />
+@@ -20,6 +20,6 @@
+         </activity>
+ 
+         <!-- Declaración de otras actividades (por ejemplo, LoginActivity) -->
+-        <activity android:name=".LoginActivity" />
++        <activity android:name=".MainActivity" />
+     </application>
+ </manifest>

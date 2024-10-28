@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TecnoSmartSalesPro</string>
+    <string name="iniciar_sesion">Iniciar Sesión</string>
+    <string name="crear_una_cuenta">Crear una cuenta</string>
+    <string name="bienvenido_a_tecnosmart_salespro">Bienvenido a TecnoSmart SalesPro</string>
+    <string name="correo">Correo</string>
+    <string name="contrasena">Contraseña</string>
+</resources>
